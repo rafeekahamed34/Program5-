@@ -1,9 +1,5 @@
-INSERT INTO Departments (DepartmentID, DepartmentName)
+INSERT INTO Student (StudentID, StudentName, Gender, DeptID)
 VALUES
-(102, 'CS');
-SELECT*FROM Departments;
-INSERT INTO Student (StudentID, StudentName, Gender, DepartmentID)
-VALUES(1001, 'Arun', 'Male', 101),
-(1002,'Divya', 'Female', 102),
-(1003, 'Karthik', 'Male', 104);
-SELECT* FROM Student;
+(1001, 'Arun', 'Male', 101),
+(1002, 'Divya', 'Female', 102),
+(1003, 'Karthik', 'Male', 103);
